@@ -9,6 +9,7 @@ int main(int argc, char **argv) {
   (void)argc;
   (void)argv;
 
+  //Function1 : Generate checkerboard
   std::vector<cv::String> fileNames;
   cv::glob("../calibration/Image*.png", fileNames, false);
   cv::Size patternSize(25 - 1, 18 - 1);
@@ -27,6 +28,7 @@ int main(int argc, char **argv) {
       }
     }
 
+  //Function2 : Detect feature points and refine the detections
   std::vector<cv::Point2f> imgPoint;
   // Detect feature points
   std::size_t i = 0;
@@ -47,15 +49,17 @@ int main(int argc, char **argv) {
         Q.push_back(objp);
     }
 
-    // Display
+    
     cv::drawChessboardCorners(img, patternSize, q[i], patternFound);
+    //Function3 : Display
+    // Display
     cv::imshow("chessboard detection", img);
     cv::waitKey(0);
 
     i++;
   }
 
-
+  //Function4 : 
   cv::Matx33f K(cv::Matx33f::eye());  // intrinsic camera matrix
   cv::Vec<float, 5> k(0, 0, 0, 0, 0); // distortion coefficients
 
@@ -81,6 +85,8 @@ int main(int argc, char **argv) {
                               mapX, mapY);
 
   // Show lens corrected images
+
+  //Function5 : 
   for (auto const &f : fileNames) {
     std::cout << std::string(f) << std::endl;
 
@@ -90,7 +96,7 @@ int main(int argc, char **argv) {
     // 5. Remap the image using the precomputed interpolation maps.
     cv::remap(img, imgUndistorted, mapX, mapY, cv::INTER_LINEAR);
 
-    // Display
+    //Function3 : Display
     cv::imshow("undistorted image", imgUndistorted);
     cv::waitKey(0);
   }
