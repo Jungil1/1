@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jungil/VINS-J/build/vins_estimator -- -j16 -l16
+[0.064s] [35m[1mScanning dependencies of target node[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/Opencv_example.cpp.o[0m
+[1.695s] [100%] [32m[1mLinking CXX executable node[0m
+[2.020s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.4
+[2.036s] [100%] Built target node
+[2.049s] Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jungil/VINS-J/build/vins_estimator -- -j16 -l16
+[2.094s] Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jungil/VINS-J/build/vins_estimator
+[2.107s] -- Install configuration: ""
+[2.107s] -- Installing: /home/jungil/VINS-J/install/vins_estimator/bin/vins_estimator/node
+[2.108s] -- Set runtime path of "/home/jungil/VINS-J/install/vins_estimator/bin/vins_estimator/node" to ""
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/package_run_dependencies/vins_estimator
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/parent_prefix_path/vins_estimator
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.sh
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.dsv
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/path.sh
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/path.dsv
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.bash
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.sh
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.zsh
+[2.108s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.dsv
+[2.108s] -- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/package.dsv
+[2.109s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/packages/vins_estimator
+[2.109s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig.cmake
+[2.109s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig-version.cmake
+[2.109s] -- Up-to-date: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/package.xml
+[2.110s] Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jungil/VINS-J/build/vins_estimator

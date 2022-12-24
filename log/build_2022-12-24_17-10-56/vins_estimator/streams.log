@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator
+[0.025s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.165s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.361s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.454s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.476s] CMake Error at CMakeLists.txt:35 (target_link_libraries):
+[0.476s]   Cannot specify link libraries for target "vins_estimator" which is not
+[0.476s]   built by this project.
+[0.476s] 
+[0.477s] 
+[0.477s] -- Configuring incomplete, errors occurred!
+[0.477s] See also "/home/jungil/VINS-J/build/vins_estimator/CMakeFiles/CMakeOutput.log".
+[0.477s] See also "/home/jungil/VINS-J/build/vins_estimator/CMakeFiles/CMakeError.log".
+[0.481s] Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator

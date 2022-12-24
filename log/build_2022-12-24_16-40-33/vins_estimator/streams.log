@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator
+[0.181s] -- The C compiler identification is GNU 9.4.0
+[0.326s] -- The CXX compiler identification is GNU 9.4.0
+[0.333s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.427s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.429s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.515s] -- Detecting C compile features
+[0.515s] -- Detecting C compile features - done
+[0.517s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.608s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.609s] -- Detecting CXX compiler ABI info
+[0.673s] -- Detecting CXX compiler ABI info - done
+[0.687s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.849s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.887s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.969s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.054s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.056s] -- Looking for pthread.h
+[1.158s] -- Looking for pthread.h - found
+[1.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.246s] -- Looking for pthread_create in pthreads
+[1.311s] -- Looking for pthread_create in pthreads - not found
+[1.311s] -- Looking for pthread_create in pthread
+[1.378s] -- Looking for pthread_create in pthread - found
+[1.379s] -- Found Threads: TRUE  
+[1.493s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.591s] -- Found OpenCV: /usr/local (found version "4.4.0") 
+[1.592s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.623s] CMake Error at CMakeLists.txt:35 (target_link_libraries):
+[1.623s]   Cannot specify link libraries for target "vins_estimator" which is not
+[1.623s]   built by this project.
+[1.623s] 
+[1.623s] 
+[1.624s] -- Configuring incomplete, errors occurred!
+[1.624s] See also "/home/jungil/VINS-J/build/vins_estimator/CMakeFiles/CMakeOutput.log".
+[1.624s] See also "/home/jungil/VINS-J/build/vins_estimator/CMakeFiles/CMakeError.log".
+[1.629s] Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator

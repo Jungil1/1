@@ -1,0 +1,6 @@
+Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator
+Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jungil/VINS-J/vins_estimator -DCMAKE_INSTALL_PREFIX=/home/jungil/VINS-J/install/vins_estimator
+Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jungil/VINS-J/build/vins_estimator -- -j16 -l16
+Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jungil/VINS-J/build/vins_estimator -- -j16 -l16
+Invoking command in '/home/jungil/VINS-J/build/vins_estimator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jungil/VINS-J/build/vins_estimator
+Invoked command in '/home/jungil/VINS-J/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jungil/VINS-J/build/vins_estimator

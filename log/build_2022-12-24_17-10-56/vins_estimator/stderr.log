@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:35 (target_link_libraries):
+  Cannot specify link libraries for target "vins_estimator" which is not
+  built by this project.
+
+

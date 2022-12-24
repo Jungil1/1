@@ -1,0 +1,40 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jungil/VINS-J/build/vins_estimator
+[35m[1mScanning dependencies of target node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/Opencv_example.cpp.o[0m
+In file included from /home/jungil/VINS-J/vins_estimator/src/Opencv_example.cpp:5:
+/opt/ros/foxy/include/image_transport/image_transport.h:41:89: note: #pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead")
+      |                                                                                         ^
+[100%] [32m[1mLinking CXX executable node[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.4
+[100%] Built target node
+-- Install configuration: ""
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/bin/vins_estimator/node
+-- Set runtime path of "/home/jungil/VINS-J/install/vins_estimator/bin/vins_estimator/node" to ""
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/package_run_dependencies/vins_estimator
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/parent_prefix_path/vins_estimator
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.sh
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.dsv
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/path.sh
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/environment/path.dsv
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.bash
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.sh
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.zsh
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/local_setup.dsv
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/package.dsv
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/ament_index/resource_index/packages/vins_estimator
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig.cmake
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig-version.cmake
+-- Installing: /home/jungil/VINS-J/install/vins_estimator/share/vins_estimator/package.xml
